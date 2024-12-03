@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    font-family: monserrate;
+}
+
+header {
+    padding: 15px;
+    background-color: rgb(255, 0, 251);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-family: sans-serif;
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: all 0.4s;
+}
+
+a:hover {
+    background-color: rgb(212, 1, 209); 
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgba(255, 0, 208, 0.219);
+}
+
+.fotito {
+    max-width: 400px;
+    height: 200px;
+    background-image: url(/trabajos/imagenes/b.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    margin: 20px;
+}
+
+.fo2 {
+    background-image: url(/trabajos/imagenes/c.jpg);
+}
+
+.fo3 {
+    background-image: url(/trabajos/imagenes/d.jpg);
+}
+
+.fo4 {
+    background-image: url(/trabajos/imagenes/e.jpg);
+}
+
+.deco1 {
+    background-image: url(/trabajos/imagenes/f.jpg);
+}
+
+.deco2 {
+    background-image: url(/trabajos/imagenes/g.jpg);
+}
+
+.deco3 {
+    background-image: url(/trabajos/imagenes/h.jpg);
+}
+
+.deco4 {
+    background-image: url(/trabajos/imagenes/i.jpg);
+}
+
+
+section {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 0, 251);
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.div {
+    padding: 20px;
+}
+
+.h2 {
+    margin: 10px 0;
+    color: #fff;
+    text-align: center
+}
+
+p {
+    line-height: 25px;
+}
